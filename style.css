@@ -1,8 +1,7 @@
 body {
     background-color: #2F2E41; 
-
-    width: 60%;
-    margin: 0 auto;     
+    margin: 0 auto;    
+    width: 60%; 
 }
 
 a {
@@ -12,9 +11,10 @@ a {
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    margin: 71px auto 101px;
+    margin: 71px auto;
+    gap: 50%
 }
 
 ul {
@@ -34,20 +34,19 @@ ul {
 
 main {
     display: flex;
-    
-    color: #fff;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-
+    color: #fff;
+    gap: 82px;        
 }
+
 
 h1 {
     font-family: "JetBrains Mono", monospace;
     font-weight: 700;
-    font-style: normal;
     font-size: 36px;
-    line-height: 40px;
-    
-    padding-left: 77px;    
 }
 
 h1 span {
@@ -57,14 +56,12 @@ h1 span {
 p {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
-    font-style: normal;
-    
     font-size: 16px;
     line-height: 28px;
     color: #C2C2C2;
     
     max-width: 604px; 
-    padding-left: 82px;
+    padding-top: 24px;
 }
 
 p span {
@@ -77,21 +74,13 @@ p span {
 
 
 footer {
-    bottom: 0;
-    margin: auto;
     padding-top: 157px;
-    padding-bottom: 10%;
 }
 
 
 footer div {
     display: flex;
-    align-items: center;
-    text-align: center;
-    padding: 0 25rem 0 9rem; 
-    height: 68px;
-    width: 100%;
-
+    justify-content: center;
 }
 
 footer p {   
@@ -100,17 +89,14 @@ footer p {
     font-size: 14px;
     line-height: 28px;
 
-    margin: 0 auto 0 10%;
     border-top: solid 1px #00BFA6;
     padding: 27px 22px 0 22px; 
     color: #fff;
-    
+        
 }
 
 
 #padlock {
-    position: absolute;
-    margin-left: -220px;
-
-    width: 51px;
+    position: fixed;
+    padding-right: 63%;
 }
