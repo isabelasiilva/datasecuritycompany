@@ -97,6 +97,6 @@ footer p {
 
 
 #padlock {
-    position: fixed;
+    position: absolute;
     padding-right: 63%;
 }
