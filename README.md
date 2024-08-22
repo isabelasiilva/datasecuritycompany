@@ -1,4 +1,4 @@
-# project05
+# Data Security Company 
 Praticando HTML e CSS
 
 Desafio de recriar uma aplicação, a partir do layout no link abaixo, para treinar o que aprendi até agora. Esse design já possui a função "wrap" para se adequar à diferentes viewports
